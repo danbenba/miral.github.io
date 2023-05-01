@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #0080ff;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+  }
+  
+  form input[type="search"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styles pour la section des produits */
+  main section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  main section h2 {
+    margin: 0;
+  }
+  
+  main section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  main section li {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+  
+  main section img {
+    width: 128px;
+    height: 128px;
+    margin-bottom: 10px;
+  }
+  
+  main section h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  main section p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  main section .prix {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0080ff;
+    margin-bottom: 10px;
+  }
+  
+  main section del {
+    color: #ccc;
+  }
+   
+  main section button {
+    background-color: #0080ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  main section button:hover {
+    background-color: #0059b3;
+  }
+  

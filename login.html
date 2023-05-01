@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Connexion - Miral</title>
+        <link rel="stylesheet" href="css/loginstyle.css">
+    </head>
+    <body>
+        <div class="box">
+            <div class="form">
+                <h2>Connexion à Miral</h2>
+                <form action="account.html" method="POST">
+                <link rel="shortcut icon" href="/img/icon.png">
+                <div class="inputBox">
+                    <input type="text" required="required">
+                    <span>Nom d'utilisateur</span>
+                    <i></i>
+            </div>
+            <div class="inputBox">
+                <input type="password" required="required">
+                <span>Mots de passe</span>
+                <i></i>
+            </div>
+            <div class="links">
+                <a href="frogpassword/frog.html">Mots de passe oublié.</a>
+                <a href="sign-up.html">Crée un compte.</a>
+            </div>
+            <input type='submit' value="Connexion" alt="lfaled.html">
+
+            <script>
+                function storeData() {
+                    var username = document.getElementById("username").value;
+                    var password = document.getElementById("password").value;
+        
+                    localStorage.setItem("username", username);
+                    localStorage.setItem("password", password);
+                }
+            </script>
+        </form>
+        </div>
+    </body>
+</html>

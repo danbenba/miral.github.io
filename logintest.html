@@ -1,0 +1,31 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Exemple de stockage avec localStorage</title>
+        <link rel="stylesheet" href="css/loginstyle.css">
+    </head>
+    <body>
+    
+        <h2>Exemple de stockage avec localStorage</h2>
+    
+        <label for="username">Nom d'utilisateur:</label>
+        <input type="text" id="username"><br>
+    
+        <label for="password">Mot de passe:</label>
+        <input type="password" id="password"><br>
+    
+        <button onclick="storeData()">Enregistrer</button>
+    
+        <script>
+            function storeData() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+    
+                localStorage.setItem("username", username);
+                localStorage.setItem("password", password);
+            }
+        </script>
+    
+    </body>
+    </html>
+    
